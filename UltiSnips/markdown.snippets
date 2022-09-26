@@ -1,0 +1,31 @@
+snippet mark "To highlight a text"
+<mark>$1</mark> $2
+endsnippet
+
+snippet "co?de?" "To write code in multiple lines" rb
+\`\`\`
+	$1
+\`\`\`
+$2
+endsnippet
+
+snippet link "To write the link part"
+[$1]($2)
+endsnippet
+
+snippet "li?st?" "To write a list" rb
+  - $1
+  - $2
+endsnippet
+
+snippet math "To write LaTeX"
+`echo $`$1`echo $`
+endsnippet
+
+snippet asm "To write inline assembly" 
+__asm__("$1\n\t");
+endsnippet
+
+snippet pic "Add picture" 
+![$1](../img/$2.png)
+endsnippet
